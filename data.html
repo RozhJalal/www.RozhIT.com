@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="rozh">
+    <form action="./data.html" method="post">
+        <div>
+            <fieldset>
+                <legend>Name</legend>
+                <label for="name">First Name :</label>
+                <input type="text">
+                <br>
+                <label for="name">Middle Name :</label>
+                <input type="text">
+                <br>
+                <label for="name">Last Name:</label>
+                <input type="text">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Contact Info</legend>
+                <label for="phone">Phone Number :</label>
+                <input type="text">
+                <br>
+                <label for="email">Email :</label>
+                <input type="email">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+        <fieldset>
+            <legend>Personal Info</legend>
+            <label for="city">Select your City</label>
+            <select name="city" required="required">
+                <option value="empty">required</option>
+                <option value="Sulaymaniyah">Sulaymaniyah</option>
+                <option value="Ebril">Erbil</option>
+                <option value="Duhok">Duhok</option>
+                <option value="Karkuk">Karkuk</option>
+                <option value="Halabja">Halabja</option>
+                <option value="Baghdad">Baghdad</option>ra
+                <option value="Basra">Basra</option>
+                <option value="Karbala">Karbala</option>
+                <option value="Nainawa">Nainawa</option>
+            </select>
+            <br>
+            <label for="text">Age :</label>
+            <input type="date">
+            <br>
+            <label for="Family Status">Family Status :</label>
+            <input type="radio" name="Family Status" value="single">Single
+            <input type="radio" name="Family Status" value="maried">Maried
+            <br>
+            <label for="School Status">School Status</label>
+            <input type="radio" name="School Status" value="under graduate">Under Graduate
+            <input type="radio" name="School Status" value="graduate">Graduate
+        </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>CV Upload</legend>
+                <label for="CV"></label>
+                <input type="file" name="CV" value="file">
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Submit</legend>
+                <label for="Submit"></label>
+                <a href="./sub.html"><input type="button" name="Submit" value="Submit"></a>
+                
+            </fieldset>
+        </div>
+        <br>
+        <div>
+            <fieldset>
+                <legend>Created by :</legend>
+                <b><p style="size: 10px;">Rozh-IT</p></b>
+            </fieldset>
+        </div>
+    </form>
+
+</body>
+
+</html>
